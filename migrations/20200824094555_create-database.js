@@ -57,6 +57,10 @@ exports.up = function (knex) {
       tbl.decimal("maxClassSize", 120).notNullable();
       tbl.string("Instructor", 128).notNullable();
       tbl.string("Gender", 128).notNullable();
+      tbl.string("description", 128).notNullable();
+      tbl.string("cost", 128).notNullable();
+      tbl.string("equipment", 128).notNullable();
+      tbl.string("arrivalTime", 128).notNullable();
     })
     .createTable("savedClasses", (tbl) => {
       tbl.increments();
