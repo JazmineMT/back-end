@@ -37,7 +37,12 @@ function findClasses() {
       "i.level_name",
       "c.id",
       "c.gender",
-      "c.instructor"
+      "c.instructor",
+      "c.description",
+      "c.cost",
+      "c.equipment",
+      "c.arrivalTime"
+
     )
     .orderBy("classDate");
 }
