@@ -44,7 +44,7 @@ function findClasses() {
       "c.arrivalTime"
 
     )
-    .orderBy("classDate");
+    .orderBy("classStart");
 }
 
 //  TODO: add in saved_class_id to response
