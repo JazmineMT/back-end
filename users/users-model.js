@@ -28,8 +28,8 @@ function findClasses() {
     .select(
       "c.name",
       "c.type",
-      "c.startTime",
-      "c.classDate",
+      "c.classStart",
+      "c.classEnd",
       "c.duration",
       "c.location",
       "c.currentRegistered",
