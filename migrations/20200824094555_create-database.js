@@ -42,8 +42,8 @@ exports.up = function (knex) {
       tbl.increments();
       tbl.string("name", 128).notNullable();
       tbl.string("type", 128).notNullable();
-      tbl.string("startTime", 128).notNullable();
-      tbl.date("classDate", 128).notNullable();
+      tbl.string("classStart", 128).notNullable();
+      tbl.date("classEnd", 128).notNullable();
       tbl.string("duration", 128).notNullable();
       tbl
         .integer("intensityLevel")
