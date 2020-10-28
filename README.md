@@ -173,7 +173,7 @@ This project was focused on designing a application that would support a gym wit
 
 ( you will need to have an authorized token to receive this)
 
-# Body Example
+##### Body Example
 
 ```javascript
 {
@@ -288,7 +288,7 @@ This project was focused on designing a application that would support a gym wit
 >/api/auth/register Will recieve a **201(Created)** response if request is successful 
 
 
-# Body Example
+##### Body Example
 
 ```javascript
 {
@@ -322,7 +322,7 @@ This project was focused on designing a application that would support a gym wit
 >/api/auth/login Will recieve a **200(OK)** response if request is successful 
 
 
-# Body Example
+##### Body Example
 
 ```javascript
 {
@@ -351,7 +351,7 @@ This project was focused on designing a application that would support a gym wit
 ( you will need to have an authorized token as an instructor to receive this)
 
 
-# Body Example
+##### Body Example
 
 ```javascript
   {
@@ -461,7 +461,7 @@ This project was focused on designing a application that would support a gym wit
 ( you will need to have an authorized token as an instructor to receive this)
 
 
-# Body Example
+##### Body Example
 
 ```javascript
   {
