@@ -77,7 +77,7 @@ This project was focused on designing a application that would support a gym wit
 (Base URL : https://fitness-anywhere-jazmine.herokuapp.com)
 
 >/https://fitness-anywhere-jazmine.herokuapp.com Will receive a **200(OK)** response if request is successful
-#### Example 
+##### Example 
 
 ```javascript
 [
@@ -86,12 +86,12 @@ This project was focused on designing a application that would support a gym wit
 }
 ];
 ```
-##### This request allows you to view all users in the database
+#### This request allows you to view all users in the database
 >/api/users Will recieve a **200(OK)** response if request is successful 
 
 ( you will need to have an authorized token as an instructor to receive this)
 
-#### Example 
+##### Example 
 
 ```javascript
 {
@@ -106,13 +106,13 @@ This project was focused on designing a application that would support a gym wit
     ]
 }
 ```
-##### This request allows you to view all classes in the database
+#### This request allows you to view all classes in the database
 
 >/api/classes Will recieve a **200(OK)** response if request is successful 
 
 ( you will need to have an authorized token to receive this)
 
-#### Example   
+##### Example   
 
 ```javascript
 {
@@ -138,12 +138,12 @@ This project was focused on designing a application that would support a gym wit
     ]
 }
 ```
-##### This request allows you to view a class using a specific class id 
+#### This request allows you to view a class using a specific class id 
 >/api/classes/{class Id} Will recieve a **200(OK)** response if request is successful 
 
 ( you will need to have an authorized token to receive this)
 
-#### Example (this example is searching for class with id of 9)
+##### Example (this example is searching for class with id of 9)
 
 ```javascript
 {
@@ -168,7 +168,7 @@ This project was focused on designing a application that would support a gym wit
 }
 ```
 
-##### This request allows you to search through classses in the database based on any contriants within the class databse
+#### This request allows you to search through classses in the database based on any contriants within the class databse
 >/api/classes/search Will recieve a **200(OK)** response if request is successful 
 
 ( you will need to have an authorized token to receive this)
@@ -182,7 +182,7 @@ This project was focused on designing a application that would support a gym wit
 ```
 
 
-#### Example (this example is searching for class at Location Redwood Park)
+##### Example (this example is searching for class at Location Redwood Park)
 
 ```javascript
 {
@@ -226,14 +226,14 @@ This project was focused on designing a application that would support a gym wit
     ]
 }
 ```
-##### This request allows you to view classes saved to a particular client
+#### This request allows you to view classes saved to a particular client
 
 >/api/classes/saved/${user id} Will recieve a **200(OK)** response if request is successful 
 
 ( you will need to have an authorized token to receive this)
 
 
-#### Example (this example is searching for class at Location Redwood Park)
+##### Example (this example is searching for class at Location Redwood Park)
 
 ```javascript
 {
@@ -283,7 +283,7 @@ This project was focused on designing a application that would support a gym wit
 ```
 
 ## POST Requests
-##### This request allows you to register as a user in the database
+#### This request allows you to register as a user in the database
 
 >/api/auth/register Will recieve a **201(Created)** response if request is successful 
 
@@ -302,7 +302,7 @@ This project was focused on designing a application that would support a gym wit
 ```
 
 
-#### Example (this example is searching for class with id of 9)
+##### Example (this example is searching for class with id of 9)
 
 ```javascript
 {
@@ -317,7 +317,7 @@ This project was focused on designing a application that would support a gym wit
 }
 ```
 
-##### This request allows you to login and receive a token within the database
+#### This request allows you to login and receive a token within the database
 
 >/api/auth/login Will recieve a **200(OK)** response if request is successful 
 
@@ -333,7 +333,7 @@ This project was focused on designing a application that would support a gym wit
 ```
 
 
-#### Example 
+##### Example 
 
 ```javascript
 {
@@ -344,7 +344,7 @@ This project was focused on designing a application that would support a gym wit
 }
 ```
 
-##### This request allows you to create a new class within the database
+#### This request allows you to create a new class within the database
 
 >/api/classes Will recieve a **201(Created)** response if request is successful 
 
@@ -375,7 +375,7 @@ This project was focused on designing a application that would support a gym wit
 ```
 
 
-#### Example 
+##### Example 
 
 ```javascript
 {
@@ -399,13 +399,13 @@ This project was focused on designing a application that would support a gym wit
     }
 }
 ```
-##### This request allows you to save a class to a user within the database
+#### This request allows you to save a class to a user within the database
 >api/classes/${userId}/save/${classId} Will recieve a **201(Created)** response if request is successful 
 
 ( you will need to have an authorized token to receive this)
 
 
-#### Example 
+##### Example 
 
 ```javascript
 {
@@ -455,7 +455,7 @@ This project was focused on designing a application that would support a gym wit
 ```
 
 ## PUT Requests
-##### This request allows you to update any class within the database
+#### This request allows you to update any class within the database
 >/api/classes/${class id} Will recieve a **200(OK)** response if request is successful 
 
 ( you will need to have an authorized token as an instructor to receive this)
@@ -485,7 +485,7 @@ This project was focused on designing a application that would support a gym wit
 ```
 
 
-#### Example 
+##### Example 
 
 ```javascript
 {
@@ -495,27 +495,27 @@ This project was focused on designing a application that would support a gym wit
 
 ## DELETE Reuqest
 
-##### This request allows you to remove any class within the database
+#### This request allows you to remove any class within the database
 
 >/api/classes/${class id} Will recieve a **200(OK)** response if request is successful 
 
 ( you will need to have an authorized token as an instructor to receive this)
 
 
-#### Example 
+##### Example 
 
 ```javascript
 {
     "removed": 1
 }
 ```
-##### This request allows you to remove any user within the database
+#### This request allows you to remove any user within the database
 >/api/users/${user id} Will recieve a **200(OK)** response if request is successful 
 
 ( you will need to have an authorized token as an instructor to receive this)
 
 
-#### Example 
+##### Example 
 
 ```javascript
 {
