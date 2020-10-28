@@ -493,7 +493,7 @@ This project was focused on designing a application that would support a gym wit
 }
 ```
 
-## DELETE Reuqest
+## DELETE Requests
 
 #### This request allows you to remove any class within the database
 
